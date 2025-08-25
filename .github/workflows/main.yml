@@ -1,7 +1,7 @@
 name: Generate Snake
 
 on:
-  schedule: 
+  schedule: # Roda todo dia às 23h
     - cron: "0 23 * * *"
   workflow_dispatch:
 
@@ -16,6 +16,7 @@ jobs:
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark
             dist/snake-dark-dimmed.svg?palette=github-dark-dimmed
+
       - uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
