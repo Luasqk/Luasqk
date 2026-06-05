@@ -12,4 +12,4 @@ Software Engineering - Unifil 2025 - 2029
 
 English track - Marista 2022 - 2024 
 
-English course - Cultura Inglesa 2019 - 2021 (unfinished)
+English course - Cultura Inglesa 2019 - 2021
